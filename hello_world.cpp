@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
-using namespace std;
 int main(){
-	string a;
-	cout << "Nickname" << endl;
-	cin >> a;
-	cout<<"Hello world from " << a;
+	std::string a; //create a
+	std::cout << "Nickname" << std::endl;
+	std::cin >> a; //vvod nickname
+	std::cout<<"Hello world from " << a;
 }
